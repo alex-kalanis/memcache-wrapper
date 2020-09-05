@@ -1,0 +1,22 @@
+{
+  "name": "alex-kalanis/memcache-wrapper",
+  "description": "PHP wrapper for questioning Memcache as file storage",
+  "keywords": [],
+  "license": "BSD 3-Clause",
+  "type": "project",
+  "require": {
+    "php": ">=7.2.0",
+    "ext-memcache": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "MemcacheWrapper\\": "src/"
+    }
+  },
+  "scripts": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
