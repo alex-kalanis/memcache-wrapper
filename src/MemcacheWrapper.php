@@ -2,7 +2,7 @@
 
 namespace MemcacheWrapper;
 
-use MemcachePool;
+use Memcached;
 use MemcacheWrapper\Wrapper\MemcacheException;
 
 /**
@@ -18,7 +18,7 @@ file_put_contents('memcache://another/key/in/storage', 'add something');
  */
 class MemcacheWrapper
 {
-    /** @var MemcachePool|null */
+    /** @var Memcached|null */
     protected static $memcache = null;
 
     /** @var resource */
@@ -30,7 +30,7 @@ class MemcacheWrapper
     protected $fileQuery = null;
     protected $showErrors = true;
 
-    public static function setPool(MemcachePool $memcache): void
+    public static function setPool(Memcached $memcache): void
     {
         static::$memcache = $memcache;
     }

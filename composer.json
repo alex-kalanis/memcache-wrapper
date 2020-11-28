@@ -6,7 +6,7 @@
   "type": "project",
   "require": {
     "php": ">=7.2.0",
-    "ext-memcache": "*"
+    "ext-memcached": "*"
   },
   "require-dev": {
   },
@@ -14,6 +14,9 @@
     "psr-4": {
       "MemcacheWrapper\\": "src/"
     }
+  },
+  "suggest": {
+    "alex-kalanis/kw_storage": "Universal storage libraries"
   },
   "scripts": {
   },

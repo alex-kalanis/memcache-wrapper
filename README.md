@@ -22,10 +22,6 @@ Use Memcache records as they were usual files.
 (Refer to [Composer Documentation](https://github.com/composer/composer/blob/master/doc/00-intro.md#introduction) if you are not
 familiar with composer)
 
-# Major changes
-
- - Version 1 was initial
-
 # Usages
 
 Just only initialize wrapper with your Memcache instance.
@@ -44,3 +40,5 @@ Then work something like following:
     file_get_contents('memcache://any/key/in/memcache/storage');
     file_put_contents('memcache://another/key/in/storage', 'add something');
 ```
+
+For using storage just look onto kv_storage readme.
