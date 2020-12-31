@@ -1,9 +1,11 @@
 <?php
 
-namespace MemcacheWrapper;
+namespace kalanis\MemcacheWrapper;
+
 
 use Memcached;
-use MemcacheWrapper\Wrapper\MemcacheException;
+use kalanis\MemcacheWrapper\Wrapper\MemcacheException;
+
 
 /**
  * Wrapper to plug Memcache into PHP - by extension

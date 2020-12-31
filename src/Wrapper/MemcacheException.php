@@ -1,6 +1,7 @@
 <?php
 
-namespace MemcacheWrapper\Wrapper;
+namespace kalanis\MemcacheWrapper\Wrapper;
+
 
 /**
  * Exceptions thrown during the run

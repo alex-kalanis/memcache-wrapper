@@ -1,6 +1,10 @@
 <?php
 
-namespace MemcacheWrapper\Wrapper;
+namespace kalanis\MemcacheWrapper\Wrapper;
+
+
+use Traversable;
+
 
 /**
  * Wrapper to plug Memcache info into PHP - directory part
@@ -30,11 +34,11 @@ class Keys extends AOperations
      */
     public function read()
     {
-        $keyName = $this->searchKeys($this->parsePath($this->path))->current();
+        $keyName = $this->searchKeys($this->parsePath($this->path));
         if (empty($keyName)) {
             return false;
         }
-        return $keyName;
+        return current($keyName);
     }
 
     public function rewind(): bool
@@ -118,9 +122,9 @@ class Keys extends AOperations
 
     /**
      * @param string $path
-     * @return \Iterator
+     * @return Traversable
      */
-    protected function searchKeys(string $path): \Iterator
+    protected function searchKeys(string $path): Traversable
     {
         return $this->scan($this->parsePath($path));
     }

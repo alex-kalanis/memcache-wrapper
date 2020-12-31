@@ -1,10 +1,10 @@
 <?php
 
-namespace MemcacheWrapper;
+namespace kalanis\MemcacheWrapper;
 
 
 use kalanis\kw_storage\Interfaces\IStorage;
-use MemcacheWrapper\Wrapper\TMemcache;
+use kalanis\MemcacheWrapper\Wrapper\TMemcache;
 use Traversable;
 
 

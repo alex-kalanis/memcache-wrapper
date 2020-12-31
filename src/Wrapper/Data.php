@@ -1,6 +1,7 @@
 <?php
 
-namespace MemcacheWrapper\Wrapper;
+namespace kalanis\MemcacheWrapper\Wrapper;
+
 
 /**
  * Wrapper to plug Memcache info into PHP - files part

@@ -1,6 +1,6 @@
 <?php
 
-namespace MemcacheWrapper\Wrapper;
+namespace kalanis\MemcacheWrapper\Wrapper;
 
 
 use Memcached;

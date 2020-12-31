@@ -8,14 +8,8 @@ Use Memcache records as they were usual files.
 ```json
 {
     "require": {
-        "alex-kalanis/memcache-wrapper": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "http",
-            "url":  "https://github.com/alex-kalanis/memcache-wrapper.git"
-        }
-    ]
+        "alex-kalanis/memcache-wrapper": "1.0"
+    }
 }
 ```
 
