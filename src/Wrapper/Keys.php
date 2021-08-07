@@ -7,6 +7,8 @@ use Traversable;
 
 
 /**
+ * Class Keys
+ * @package kalanis\MemcacheWrapper\Wrapper
  * Wrapper to plug Memcache info into PHP - directory part
  */
 class Keys extends AOperations

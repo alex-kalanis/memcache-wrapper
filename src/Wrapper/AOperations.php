@@ -4,6 +4,8 @@ namespace kalanis\MemcacheWrapper\Wrapper;
 
 
 /**
+ * Class AOperations
+ * @package kalanis\MemcacheWrapper\Wrapper
  * Wrapper to plug FSP info into PHP - directory part
  */
 abstract class AOperations

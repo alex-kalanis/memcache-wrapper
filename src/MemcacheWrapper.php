@@ -8,6 +8,8 @@ use kalanis\MemcacheWrapper\Wrapper\MemcacheException;
 
 
 /**
+ * Class MemcacheWrapper
+ * @package kalanis\MemcacheWrapper
  * Wrapper to plug Memcache into PHP - by extension
  *
  * Usage:

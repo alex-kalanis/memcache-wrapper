@@ -8,6 +8,8 @@ use Traversable;
 
 
 /**
+ * Trait TMemcache
+ * @package kalanis\MemcacheWrapper\Wrapper
  * Trait for add Memcache extension connector into the classes
  */
 trait TMemcache

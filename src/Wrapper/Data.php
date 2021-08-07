@@ -4,6 +4,8 @@ namespace kalanis\MemcacheWrapper\Wrapper;
 
 
 /**
+ * Class Data
+ * @package kalanis\MemcacheWrapper\Wrapper
  * Wrapper to plug Memcache info into PHP - files part
  */
 class Data extends AOperations

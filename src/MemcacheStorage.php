@@ -9,8 +9,8 @@ use Traversable;
 
 
 /**
- * Class Memcache
- * @package MemcacheWrapper
+ * Class MemcacheStorage
+ * @package kalanis\MemcacheWrapper
  * Memcache storage for k-v pairs
  *
  * add - set, fails for existing
