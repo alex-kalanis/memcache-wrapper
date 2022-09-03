@@ -3,7 +3,7 @@
 namespace kalanis\MemcacheWrapper;
 
 
-use kalanis\kw_storage\Interfaces\IStorage;
+use kalanis\kw_storage\Interfaces\ITarget;
 use kalanis\MemcacheWrapper\Wrapper\TMemcache;
 use Traversable;
 
@@ -17,7 +17,7 @@ use Traversable;
  * replace - set, fails for missing
  * set - set value
  */
-class MemcacheStorage implements IStorage
+class MemcacheStorage implements ITarget
 {
     use TMemcache;
 
